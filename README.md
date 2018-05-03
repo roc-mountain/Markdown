@@ -1,6 +1,7 @@
 # 编写整洁优雅的Markdown
-展示地址：[https://roc-mountain.github.io/Markdown/](https://roc-mountain.github.io/Markdown/ "展示地址")  
-源码地址：[https://github.com/roc-mountain/Markdown](https://github.com/roc-mountain/Markdown "源码地址")
+阅读地址：[https://roc-mountain.github.io/Markdown/](https://roc-mountain.github.io/Markdown/ "展示地址")  
+源码地址：[https://github.com/roc-mountain/Markdown](https://github.com/roc-mountain/Markdown "源码地址")  
+在线体验：[https://roc-mountain.github.io/Markdown/editor.html](https://roc-mountain.github.io/Markdown/editor.html "在线体验")
 
 ## <span id="page-tree">目录</span>
 
@@ -11,6 +12,7 @@
 5. [Markdown语法](#syntax)
     * [5.1标题](#title)
 6. [注意事项](#notice)
+7. [参考](#reference)
 
 ----
 
@@ -59,3 +61,7 @@ Markdown 的写法兼容HTML。需要注意HTML标签的类型：在 HTML 区块
 ## <span id="notice">注意事项</span>
 
 所有 Markdown 语法涉及到的符号，请在英文输入法下输入。
+## <span id="reference">参考</span>
+
+Markdown 语法说明（简体中文版）：[http://wowubuntu.com/markdown/](http://wowubuntu.com/markdown/)  
+Markdown 语法说明（英文版）：[https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
