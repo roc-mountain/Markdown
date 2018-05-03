@@ -33,7 +33,7 @@ Markdown 的写法兼容HTML。需要注意HTML标签的类型：在 HTML 区块
 一般代码编辑器都是可以满足编写 Markdown 语法文件的，并且有预览的功能，
 本人尝试的有：[sublime](https://www.sublimetext.com) 和 [VScode](https://code.visualstudio.com/)。    
 如果想要专业的Markdown编写工具，Mac系统推荐：[Mou](http://25.io/mou/)。Windows系统推荐：[MarkdownPad](http://www.markdownpad.com/)。  
-在线编辑体验：<a href="./editor.html" target="_blank">Markdown在线编辑体验</a>
+在线编辑体验：<a href="https://roc-mountain.github.io/Markdown/editor.html" target="_blank">Markdown在线编辑体验</a>
 
 ## <span id="syntax">Markdown语法</span>
 
