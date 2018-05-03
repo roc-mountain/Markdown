@@ -1,0 +1,65 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	padding: 30px;
+	background: -webkit-linear-gradient(to bottom, #019858, #009393); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(to right, #019858, #009393); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(to right, #019858, #009393); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right,#019858, #009393); /* 标准的语法 */
+}
+.keep_center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: -330px;
+}
+.title{
+	color: #A020F0;
+}
+.nav{
+	display: flex;
+	text-align: center;
+	font-size: 2rem;
+	line-height: 3rem;
+	color: #DA70D6;
+	letter-spacing: 3px;
+}
+.left{
+	width: 50%;
+	flex: 1;
+}
+.right{
+	width: 50%;
+	flex: 1;
+}
+.content{
+	width: 1000px;
+	height: 500px;
+	background: #fff;
+	margin: 0px auto;
+	display: flex;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #ccc;
+}
+#text_area{
+	height: inherit;
+	resize:none;
+	outline: none;
+	flex: 1;
+	border: 1px solid #ccc;
+	border-radius: 5px 0 0 5px;
+	overflow-y: auto;
+}
+#html_area{
+	height: inherit;
+	flex: 1;
+	border: 1px solid #ccc;
+	border-radius: 0 5px 5px 0;
+	overflow-y: auto;
+}
+
+	

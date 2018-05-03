@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Markdown在线编辑体验</title>
+		<link href="http://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="./css/editor.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="keep_center">
+			<h1 class="text-center title">Markdown在线编辑体验</h1>
+			<div class="nav">
+				<div class="left">编辑区</div>
+				<div class="right">预览区</div>
+			</div>
+			<div class="content">
+				<textarea id="text_area" oninput="this.control.change()" rows="18" cols="60">
+# 开始测试*Markdown*吧
+
+-------
+
+> 可以删除当前内容，做自己的测试
+				</textarea>
+				<div id="html_area"></div>
+			</div>
+		</div>
+		
+		
+
+		<script src="./javascript/markdown.min.js"></script>
+		<script>
+		  function Editor(text, html) {
+			this.change = function () {
+			  html.innerHTML = markdown.toHTML(text.value);
+			};
+			text.control = this;
+			this.change();
+		  }
+		  var $ = function (id) { return document.getElementById(id); };
+		  new Editor($("text_area"), $("html_area"));
+		</script>
+	</body>
+</html>
