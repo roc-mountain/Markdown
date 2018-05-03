@@ -14,7 +14,7 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -500px;
+	margin-left: -450px;
 	margin-top: -330px;
 }
 .title{
@@ -37,7 +37,7 @@ body{
 	flex: 1;
 }
 .content{
-	width: 1000px;
+	width: 900px;
 	height: 500px;
 	background: #fff;
 	margin: 0px auto;
