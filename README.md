@@ -3,7 +3,7 @@ Markdown编写文档：[https://roc-mountain.github.io/Markdown/](https://roc-mo
 源码地址：[https://github.com/roc-mountain/Markdown](https://github.com/roc-mountain/Markdown "源码地址")  
 在线体验：[https://roc-mountain.github.io/Markdown/editor.html](https://roc-mountain.github.io/Markdown/editor.html "在线体验")
 
-## <span id="page-tree">目录</span>
+## <span id="page-tree">1.目录</span>
 
 1. [目录](#page-tree)
 2. [前言](#preface)
@@ -11,16 +11,25 @@ Markdown编写文档：[https://roc-mountain.github.io/Markdown/](https://roc-mo
 4. [Markdown编写工具](#tool)
 5. [Markdown语法](#syntax)
     * [5.1标题](#title)
+    * [5.2段落和换行](#rap)
+    * [5.3列表](#list)
+    * [5.4引用（注释）](#quote)
+    * [5.5代码区块](#code)
+    * [5.6分割线](#cutline)
+    * [5.7强调](#mephasize)
+    * [5.8链接](#link)
+    * [5.9图片](#image)
+    * [5.10符号](#symbol)
 6. [注意事项](#notice)
 7. [参考](#reference)
 
 ----
 
-## <span id="preface">前言</span>
+## <span id="preface">2.前言</span>
 
 项目中经常有一个被人们忽略的文件:`README.md`，通常情况都是简单的两句，并没有深入的了解一下这个文件的编写规则，今天仔细的探究了一下，把学习结果记录下来，与大家共勉。
 
-## <span id="introduce">什么是Markdown</span>
+## <span id="introduce">3.什么是Markdown</span>
 
 Markdown的目标是成为一种适用于网络的书写语言，实现「易读易写」。可读性，无论如何，都是最重要的。   
 
@@ -32,16 +41,16 @@ Markdown 的写法兼容HTML。需要注意HTML标签的类型：在 HTML 区块
 
 通常情况下，用 Markdown 语法编写的文件的后缀名为`.md`。
 
-## <span id="tool">Markdown编写工具</span>
+## <span id="tool">4.Markdown编写工具</span>
 
 一般代码编辑器都是可以满足编写 Markdown 语法文件的，并且有预览的功能，
 本人尝试的有：[sublime](https://www.sublimetext.com) 和 [VScode](https://code.visualstudio.com/)。    
 如果想要专业的Markdown编写工具，Mac系统推荐：[Mou](http://25.io/mou/)。Windows系统推荐：[MarkdownPad](http://www.markdownpad.com/)。  
 在线编辑体验：<a href="https://roc-mountain.github.io/Markdown/editor.html" target="_blank">Markdown在线编辑体验</a>
 
-## <span id="syntax">Markdown语法</span>
+## <span id="syntax">5.Markdown语法</span>
 
-### <span id="title">标题</span>
+### <span id="title">5.1 标题</span>
   Markdown 支持两种标题的语法，类 Setext 和类 atx 形式。
 
 * 第一种类 Setext 形式是用底线的形式，利用 = （最高级标题）和 - （第二级标题），任何数量的 = 和 - 都可以有效果。例：
@@ -57,11 +66,16 @@ Markdown 的写法兼容HTML。需要注意HTML标签的类型：在 HTML 区块
 
 ![标题图3](./images/title-3.png)
 
+### <span id="rap">5.2 段落和换行</span>
 
-## <span id="notice">注意事项</span>
+一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行（空行的定义是显示上看起来像是空的，便会被视为空行。比方说，若某一行只包含空格和制表符，则该行也会被视为空行）。Markdown 允许段落内的强迫换行（插入换行符），在换行处（插入处）先按入两个以上的空格然后按回车即可实现换行。（注：有些Markdown编辑器已经避免这个问题，需要换行的时候只需按入空格即可）
+
+普通段落不该用空格或制表符来缩进。（空格缩进4个以上或一个制表符，会把缩进内容变为代码块内容。详见：[5.5代码区块](#code-area)）
+
+## <span id="notice">6.注意事项</span>
 
 所有 Markdown 语法涉及到的符号，请在英文输入法下输入。
-## <span id="reference">参考</span>
+## <span id="reference">7.参考</span>
 
 Markdown 语法说明（简体中文版）：[http://wowubuntu.com/markdown/](http://wowubuntu.com/markdown/)  
 Markdown 语法说明（英文版）：[https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
