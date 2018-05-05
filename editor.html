@@ -8,6 +8,7 @@
 	<body>
 		<div class="keep_center">
 			<h1 class="text-center title">Markdown在线编辑体验</h1>
+			<a class="go_md" href="https://roc-mountain.github.io/Markdown/" target="_blank">Markdown编写文档</a>
 			<div class="nav">
 				<div class="left">编辑区</div>
 				<div class="right">预览区</div>
@@ -29,11 +30,11 @@
 		<script src="./javascript/markdown.min.js"></script>
 		<script>
 		  function Editor(text, html) {
-			this.change = function () {
-			  html.innerHTML = markdown.toHTML(text.value);
-			};
-			text.control = this;
-			this.change();
+				this.change = function () {
+					html.innerHTML = markdown.toHTML(text.value);
+				};
+				text.control = this;
+				this.change();
 		  }
 		  var $ = function (id) { return document.getElementById(id); };
 		  new Editor($("text_area"), $("html_area"));

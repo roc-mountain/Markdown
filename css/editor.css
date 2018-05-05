@@ -4,7 +4,6 @@ html,body{
 }
 
 body{
-	padding: 30px;
 	background: -webkit-linear-gradient(to bottom, #019858, #009393); /* Safari 5.1 - 6.0 */
 	background: -o-linear-gradient(to right, #019858, #009393); /* Opera 11.1 - 12.0 */
 	background: -moz-linear-gradient(to right, #019858, #009393); /* Firefox 3.6 - 15 */
@@ -16,6 +15,12 @@ body{
 	left: 50%;
 	margin-left: -450px;
 	margin-top: -330px;
+}
+.go_md{
+	position: absolute;
+	top: 32px;
+	right: 0;
+	font-size: 18px;
 }
 .title{
 	color: #A020F0;
