@@ -7,9 +7,9 @@ Markdown编写文档：[https://roc-mountain.github.io/Markdown/](https://roc-mo
 
 1. [目录](#1目录)
 2. [前言](#2前言)
-3. [什么是Markdown](#3什么是Markdown)
-4. [Markdown编写工具](#4Markdown编写工具)
-5. [Markdown语法](#5Markdown语法)
+3. [什么是Markdown](#3什么是markdown)
+4. [Markdown编写工具](#4markdown编写工具)
+5. [Markdown语法](#5markdown语法)
     * [5.1标题](#51-标题)
     * [5.2段落和换行](#52-段落和换行)
     * [5.3列表](#53-列表)
