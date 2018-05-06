@@ -173,7 +173,7 @@ Markdown 也可以制作表格，用分隔符（|）确定表格是几列，用�
 
 ### 5.12-表情
 
-Markdown 也支持在文字中插入表情，用两个冒号加上相应的单词比如：`:smile:`就是表情:smile:。更多表情可以查看[《表情列表》](emoji.md)
+Markdown 也支持在文字中插入表情，用两个冒号加上相应的单词比如：`:smile:`就是表情:smile:。更多表情可以查看[《表情列表》](https://github.com/roc-mountain/Markdown/blob/master/emoji.md)
 
 ## 6.注意事项
 
