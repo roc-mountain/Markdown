@@ -12,7 +12,7 @@ Markdown编写文档：[https://roc-mountain.github.io/Markdown/](https://roc-mo
 5. [Markdown语法](#syntax)
     * [5.1标题](#title)
     * [5.2段落和换行](#rap)
-    * [5.3列表](#list)
+    * [5.3列表](#列表)
     * [5.4引用（注释）](#quote)
     * [5.5代码区块](#code)
     * [5.6分割线](#cutline)
