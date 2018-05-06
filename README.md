@@ -3,13 +3,13 @@ Markdown编写文档：[https://roc-mountain.github.io/Markdown/](https://roc-mo
 源码地址：[https://github.com/roc-mountain/Markdown](https://github.com/roc-mountain/Markdown "源码地址")  
 在线体验：[https://roc-mountain.github.io/Markdown/editor.html](https://roc-mountain.github.io/Markdown/editor.html "在线体验")
 
-## <span id="page-tree">1.目录</span>
+## 1.目录
 
-1. [目录](#page-tree)
-2. [前言](#preface)
-3. [什么是Markdown](#introduce)
-4. [Markdown编写工具](#tool)
-5. [Markdown语法](#syntax)
+1. [目录](#1目录)
+2. [前言](#2前言)
+3. [什么是Markdown](#3什么是Markdown)
+4. [Markdown编写工具](#4Markdown编写工具)
+5. [Markdown语法](#5Markdown语法)
     * [5.1标题](#51-标题)
     * [5.2段落和换行](#52-段落和换行)
     * [5.3列表](#53-列表)
@@ -20,16 +20,16 @@ Markdown编写文档：[https://roc-mountain.github.io/Markdown/](https://roc-mo
     * [5.8链接](#link)
     * [5.9图片](#image)
     * [5.10符号](#symbol)
-6. [注意事项](#notice)
-7. [参考](#reference)
+6. [注意事项](#6注意事项)
+7. [参考](#7参考)
 
 ----
 
-## <span id="preface">2.前言</span>
+## 2.前言
 
 项目中经常有一个被人们忽略的文件:`README.md`，通常情况都是简单的两句，并没有深入的了解一下这个文件的编写规则，今天仔细的探究了一下，把学习结果记录下来，与大家共勉。
 
-## <span id="introduce">3.什么是Markdown</span>
+## 3.什么是Markdown
 
 Markdown的目标是成为一种适用于网络的书写语言，实现「易读易写」。可读性，无论如何，都是最重要的。   
 
@@ -41,14 +41,14 @@ Markdown 的写法兼容HTML。需要注意HTML标签的类型：在 HTML 区块
 
 通常情况下，用 Markdown 语法编写的文件的后缀名为`.md`。
 
-## <span id="tool">4.Markdown编写工具</span>
+## 4.Markdown编写工具
 
 一般代码编辑器都是可以满足编写 Markdown 语法文件的，并且有预览的功能，
 本人尝试的有：[sublime](https://www.sublimetext.com) 和 [VScode](https://code.visualstudio.com/)。    
 如果想要专业的Markdown编写工具，Mac系统推荐：[Mou](http://25.io/mou/)。Windows系统推荐：[MarkdownPad](http://www.markdownpad.com/)。  
 在线编辑体验：<a href="https://roc-mountain.github.io/Markdown/editor.html" target="_blank">Markdown在线编辑体验</a>
 
-## <span id="syntax">5.Markdown语法</span>
+## 5.Markdown语法
 
 ### 5.1-标题
   Markdown 支持两种标题的语法，类 Setext 和类 atx 形式。
@@ -84,10 +84,10 @@ Markdown 的写法兼容HTML。需要注意HTML标签的类型：在 HTML 区块
 
   ![列表1](./images/list-2.png)
 
-## <span id="notice">6.注意事项</span>
+## 6.注意事项
 
 所有 Markdown 语法涉及到的符号，请在英文输入法下输入。
-## <span id="reference">7.参考</span>
+## 7.参考
 
 Markdown 语法说明（简体中文版）：[http://wowubuntu.com/markdown/](http://wowubuntu.com/markdown/)  
 Markdown 语法说明（英文版）：[https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
